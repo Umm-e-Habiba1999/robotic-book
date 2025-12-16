@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Docusaurus build outputs
+.build/
+.dist/
+.docusaurus/
+
+# Environment variables
+.env*
+!.env.example
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+apidoc/
+doc/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Temporary folders
+tmp/
+temp/
+
+# Production build
+build/
+
+# IDE
+.vscode/
+.idea/
