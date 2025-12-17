@@ -1,0 +1,27 @@
+{
+  "id": "appendices/appendix-e",
+  "title": "Appendix E: Standards and Ethics",
+  "description": "E.1 Robotics Safety Standards",
+  "source": "@site/docs/appendices/appendix-e.md",
+  "sourceDirName": "appendices",
+  "slug": "/appendices/appendix-e",
+  "permalink": "/docs/appendices/appendix-e",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/appendices/appendix-e.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Appendix D: Programming Resources",
+    "permalink": "/docs/appendices/appendix-d"
+  },
+  "next": {
+    "title": "Appendix F: Cloud vs On-Premise Lab Setup",
+    "permalink": "/docs/appendices/appendix-f"
+  }
+}

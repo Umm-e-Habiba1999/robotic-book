@@ -1,0 +1,27 @@
+{
+  "id": "part4/chapter12",
+  "title": "Chapter 12: Isaac Applications and Extensions",
+  "description": "Chapter Overview",
+  "source": "@site/docs/part4/chapter12.md",
+  "sourceDirName": "part4",
+  "slug": "/part4/chapter12",
+  "permalink": "/docs/part4/chapter12",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part4/chapter12.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 11: Isaac AI and Deep Learning Integration",
+    "permalink": "/docs/part4/chapter11"
+  },
+  "next": {
+    "title": "Chapter 13: Vision Processing for Robotics",
+    "permalink": "/docs/part5/chapter13"
+  }
+}

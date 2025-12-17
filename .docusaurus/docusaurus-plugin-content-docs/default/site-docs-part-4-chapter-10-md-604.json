@@ -1,0 +1,27 @@
+{
+  "id": "part4/chapter10",
+  "title": "Chapter 10: NVIDIA Isaac Platform Overview",
+  "description": "Chapter Overview",
+  "source": "@site/docs/part4/chapter10.md",
+  "sourceDirName": "part4",
+  "slug": "/part4/chapter10",
+  "permalink": "/docs/part4/chapter10",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part4/chapter10.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 9: Unity-Based Robotics Simulation",
+    "permalink": "/docs/part3/chapter9"
+  },
+  "next": {
+    "title": "Chapter 11: Isaac AI and Deep Learning Integration",
+    "permalink": "/docs/part4/chapter11"
+  }
+}

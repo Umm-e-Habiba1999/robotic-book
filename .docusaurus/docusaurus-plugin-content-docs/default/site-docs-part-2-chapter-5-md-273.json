@@ -1,0 +1,27 @@
+{
+  "id": "part2/chapter5",
+  "title": "Chapter 5: Perception and Navigation Stack",
+  "description": "Chapter Overview",
+  "source": "@site/docs/part2/chapter5.md",
+  "sourceDirName": "part2",
+  "slug": "/part2/chapter5",
+  "permalink": "/docs/part2/chapter5",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part2/chapter5.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 4: ROS 2 Architecture and Fundamentals",
+    "permalink": "/docs/part2/chapter4"
+  },
+  "next": {
+    "title": "Chapter 6: Manipulation and Control Frameworks",
+    "permalink": "/docs/part2/chapter6"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "appendices/appendix-b",
+  "title": "Appendix B: Software Installation and Setup",
+  "description": "B.1 ROS 2 Installation Guide",
+  "source": "@site/docs/appendices/appendix-b.md",
+  "sourceDirName": "appendices",
+  "slug": "/appendices/appendix-b",
+  "permalink": "/docs/appendices/appendix-b",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/appendices/appendix-b.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Appendix A: Mathematical Prerequisites",
+    "permalink": "/docs/appendices/appendix-a"
+  },
+  "next": {
+    "title": "Appendix C: Hardware Specifications",
+    "permalink": "/docs/appendices/appendix-c"
+  }
+}

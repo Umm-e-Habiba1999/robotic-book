@@ -1,0 +1,158 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "appendices/appendix-a",
+              "path": "/docs/appendices/appendix-a",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "appendices/appendix-b",
+              "path": "/docs/appendices/appendix-b",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "appendices/appendix-c",
+              "path": "/docs/appendices/appendix-c",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "appendices/appendix-d",
+              "path": "/docs/appendices/appendix-d",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "appendices/appendix-e",
+              "path": "/docs/appendices/appendix-e",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "appendices/appendix-f",
+              "path": "/docs/appendices/appendix-f",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part1/chapter1",
+              "path": "/docs/part1/chapter1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part1/chapter2",
+              "path": "/docs/part1/chapter2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part1/chapter3",
+              "path": "/docs/part1/chapter3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part2/chapter4",
+              "path": "/docs/part2/chapter4",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part2/chapter5",
+              "path": "/docs/part2/chapter5",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part2/chapter6",
+              "path": "/docs/part2/chapter6",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part3/chapter7",
+              "path": "/docs/part3/chapter7",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part3/chapter8",
+              "path": "/docs/part3/chapter8",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part3/chapter9",
+              "path": "/docs/part3/chapter9",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part4/chapter10",
+              "path": "/docs/part4/chapter10",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part4/chapter11",
+              "path": "/docs/part4/chapter11",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part4/chapter12",
+              "path": "/docs/part4/chapter12",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part5/chapter13",
+              "path": "/docs/part5/chapter13",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part5/chapter14",
+              "path": "/docs/part5/chapter14",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part5/chapter15",
+              "path": "/docs/part5/chapter15",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part6/chapter16",
+              "path": "/docs/part6/chapter16",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part6/chapter17",
+              "path": "/docs/part6/chapter17",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part6/chapter18",
+              "path": "/docs/part6/chapter18",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part7/chapter19",
+              "path": "/docs/part7/chapter19",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

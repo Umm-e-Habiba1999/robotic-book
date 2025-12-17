@@ -1,0 +1,1076 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\DANISH LAPTOP\\physical-ai-textbook\\sidebars.js",
+          "contentPath": "C:\\Users\\DANISH LAPTOP\\physical-ai-textbook\\docs",
+          "contentPathLocalized": "C:\\Users\\DANISH LAPTOP\\physical-ai-textbook\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "id": "appendices/appendix-a",
+              "title": "Appendix A: Mathematical Prerequisites",
+              "description": "A.1 Linear Algebra for Robotics",
+              "source": "@site/docs/appendices/appendix-a.md",
+              "sourceDirName": "appendices",
+              "slug": "/appendices/appendix-a",
+              "permalink": "/docs/appendices/appendix-a",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/appendices/appendix-a.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 19: Integrated Physical AI Systems",
+                "permalink": "/docs/part7/chapter19"
+              },
+              "next": {
+                "title": "Appendix B: Software Installation and Setup",
+                "permalink": "/docs/appendices/appendix-b"
+              }
+            },
+            {
+              "id": "appendices/appendix-b",
+              "title": "Appendix B: Software Installation and Setup",
+              "description": "B.1 ROS 2 Installation Guide",
+              "source": "@site/docs/appendices/appendix-b.md",
+              "sourceDirName": "appendices",
+              "slug": "/appendices/appendix-b",
+              "permalink": "/docs/appendices/appendix-b",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/appendices/appendix-b.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Appendix A: Mathematical Prerequisites",
+                "permalink": "/docs/appendices/appendix-a"
+              },
+              "next": {
+                "title": "Appendix C: Hardware Specifications",
+                "permalink": "/docs/appendices/appendix-c"
+              }
+            },
+            {
+              "id": "appendices/appendix-c",
+              "title": "Appendix C: Hardware Specifications",
+              "description": "C.1 Sensor Specifications and Datasheets",
+              "source": "@site/docs/appendices/appendix-c.md",
+              "sourceDirName": "appendices",
+              "slug": "/appendices/appendix-c",
+              "permalink": "/docs/appendices/appendix-c",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/appendices/appendix-c.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Appendix B: Software Installation and Setup",
+                "permalink": "/docs/appendices/appendix-b"
+              },
+              "next": {
+                "title": "Appendix D: Programming Resources",
+                "permalink": "/docs/appendices/appendix-d"
+              }
+            },
+            {
+              "id": "appendices/appendix-d",
+              "title": "Appendix D: Programming Resources",
+              "description": "D.1 ROS 2 Programming Patterns",
+              "source": "@site/docs/appendices/appendix-d.md",
+              "sourceDirName": "appendices",
+              "slug": "/appendices/appendix-d",
+              "permalink": "/docs/appendices/appendix-d",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/appendices/appendix-d.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Appendix C: Hardware Specifications",
+                "permalink": "/docs/appendices/appendix-c"
+              },
+              "next": {
+                "title": "Appendix E: Standards and Ethics",
+                "permalink": "/docs/appendices/appendix-e"
+              }
+            },
+            {
+              "id": "appendices/appendix-e",
+              "title": "Appendix E: Standards and Ethics",
+              "description": "E.1 Robotics Safety Standards",
+              "source": "@site/docs/appendices/appendix-e.md",
+              "sourceDirName": "appendices",
+              "slug": "/appendices/appendix-e",
+              "permalink": "/docs/appendices/appendix-e",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/appendices/appendix-e.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Appendix D: Programming Resources",
+                "permalink": "/docs/appendices/appendix-d"
+              },
+              "next": {
+                "title": "Appendix F: Cloud vs On-Premise Lab Setup",
+                "permalink": "/docs/appendices/appendix-f"
+              }
+            },
+            {
+              "id": "appendices/appendix-f",
+              "title": "Appendix F: Cloud vs On-Premise Lab Setup",
+              "description": "F.1 On-Premise Lab Setup",
+              "source": "@site/docs/appendices/appendix-f.md",
+              "sourceDirName": "appendices",
+              "slug": "/appendices/appendix-f",
+              "permalink": "/docs/appendices/appendix-f",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/appendices/appendix-f.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Appendix E: Standards and Ethics",
+                "permalink": "/docs/appendices/appendix-e"
+              }
+            },
+            {
+              "id": "intro",
+              "title": "Introduction",
+              "description": "Welcome to the Future of AI Education",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Introduction",
+                "slug": "/intro",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Chapter 1: Introduction to Physical AI",
+                "permalink": "/docs/part1/chapter1"
+              }
+            },
+            {
+              "id": "part1/chapter1",
+              "title": "Chapter 1: Introduction to Physical AI",
+              "description": "Physical AI Concept",
+              "source": "@site/docs/part1/chapter1.md",
+              "sourceDirName": "part1",
+              "slug": "/part1/chapter1",
+              "permalink": "/docs/part1/chapter1",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part1/chapter1.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Chapter 2: Physics and Mechanics for AI Systems",
+                "permalink": "/docs/part1/chapter2"
+              }
+            },
+            {
+              "id": "part1/chapter2",
+              "title": "Chapter 2: Physics and Mechanics for AI Systems",
+              "description": "Physics and Mechanics for AI",
+              "source": "@site/docs/part1/chapter2.md",
+              "sourceDirName": "part1",
+              "slug": "/part1/chapter2",
+              "permalink": "/docs/part1/chapter2",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part1/chapter2.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 1: Introduction to Physical AI",
+                "permalink": "/docs/part1/chapter1"
+              },
+              "next": {
+                "title": "Chapter 3: Sensing the Physical World",
+                "permalink": "/docs/part1/chapter3"
+              }
+            },
+            {
+              "id": "part1/chapter3",
+              "title": "Chapter 3: Sensing the Physical World",
+              "description": "Sensing the Physical World",
+              "source": "@site/docs/part1/chapter3.md",
+              "sourceDirName": "part1",
+              "slug": "/part1/chapter3",
+              "permalink": "/docs/part1/chapter3",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part1/chapter3.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 2: Physics and Mechanics for AI Systems",
+                "permalink": "/docs/part1/chapter2"
+              },
+              "next": {
+                "title": "Chapter 4: ROS 2 Architecture and Fundamentals",
+                "permalink": "/docs/part2/chapter4"
+              }
+            },
+            {
+              "id": "part2/chapter4",
+              "title": "Chapter 4: ROS 2 Architecture and Fundamentals",
+              "description": "ROS 2 Architecture",
+              "source": "@site/docs/part2/chapter4.md",
+              "sourceDirName": "part2",
+              "slug": "/part2/chapter4",
+              "permalink": "/docs/part2/chapter4",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part2/chapter4.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 3: Sensing the Physical World",
+                "permalink": "/docs/part1/chapter3"
+              },
+              "next": {
+                "title": "Chapter 5: Perception and Navigation Stack",
+                "permalink": "/docs/part2/chapter5"
+              }
+            },
+            {
+              "id": "part2/chapter5",
+              "title": "Chapter 5: Perception and Navigation Stack",
+              "description": "Chapter Overview",
+              "source": "@site/docs/part2/chapter5.md",
+              "sourceDirName": "part2",
+              "slug": "/part2/chapter5",
+              "permalink": "/docs/part2/chapter5",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part2/chapter5.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 4: ROS 2 Architecture and Fundamentals",
+                "permalink": "/docs/part2/chapter4"
+              },
+              "next": {
+                "title": "Chapter 6: Manipulation and Control Frameworks",
+                "permalink": "/docs/part2/chapter6"
+              }
+            },
+            {
+              "id": "part2/chapter6",
+              "title": "Chapter 6: Manipulation and Control Frameworks",
+              "description": "Chapter Overview",
+              "source": "@site/docs/part2/chapter6.md",
+              "sourceDirName": "part2",
+              "slug": "/part2/chapter6",
+              "permalink": "/docs/part2/chapter6",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part2/chapter6.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 5: Perception and Navigation Stack",
+                "permalink": "/docs/part2/chapter5"
+              },
+              "next": {
+                "title": "Chapter 7: Physics Simulation Fundamentals",
+                "permalink": "/docs/part3/chapter7"
+              }
+            },
+            {
+              "id": "part3/chapter7",
+              "title": "Chapter 7: Physics Simulation Fundamentals",
+              "description": "Chapter Overview",
+              "source": "@site/docs/part3/chapter7.md",
+              "sourceDirName": "part3",
+              "slug": "/part3/chapter7",
+              "permalink": "/docs/part3/chapter7",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part3/chapter7.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 6: Manipulation and Control Frameworks",
+                "permalink": "/docs/part2/chapter6"
+              },
+              "next": {
+                "title": "Chapter 8: Gazebo Simulation Environment",
+                "permalink": "/docs/part3/chapter8"
+              }
+            },
+            {
+              "id": "part3/chapter8",
+              "title": "Chapter 8: Gazebo Simulation Environment",
+              "description": "Chapter Overview",
+              "source": "@site/docs/part3/chapter8.md",
+              "sourceDirName": "part3",
+              "slug": "/part3/chapter8",
+              "permalink": "/docs/part3/chapter8",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part3/chapter8.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 7: Physics Simulation Fundamentals",
+                "permalink": "/docs/part3/chapter7"
+              },
+              "next": {
+                "title": "Chapter 9: Unity-Based Robotics Simulation",
+                "permalink": "/docs/part3/chapter9"
+              }
+            },
+            {
+              "id": "part3/chapter9",
+              "title": "Chapter 9: Unity-Based Robotics Simulation",
+              "description": "Chapter Overview",
+              "source": "@site/docs/part3/chapter9.md",
+              "sourceDirName": "part3",
+              "slug": "/part3/chapter9",
+              "permalink": "/docs/part3/chapter9",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part3/chapter9.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 8: Gazebo Simulation Environment",
+                "permalink": "/docs/part3/chapter8"
+              },
+              "next": {
+                "title": "Chapter 10: NVIDIA Isaac Platform Overview",
+                "permalink": "/docs/part4/chapter10"
+              }
+            },
+            {
+              "id": "part4/chapter10",
+              "title": "Chapter 10: NVIDIA Isaac Platform Overview",
+              "description": "Chapter Overview",
+              "source": "@site/docs/part4/chapter10.md",
+              "sourceDirName": "part4",
+              "slug": "/part4/chapter10",
+              "permalink": "/docs/part4/chapter10",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part4/chapter10.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 9: Unity-Based Robotics Simulation",
+                "permalink": "/docs/part3/chapter9"
+              },
+              "next": {
+                "title": "Chapter 11: Isaac AI and Deep Learning Integration",
+                "permalink": "/docs/part4/chapter11"
+              }
+            },
+            {
+              "id": "part4/chapter11",
+              "title": "Chapter 11: Isaac AI and Deep Learning Integration",
+              "description": "Chapter Overview",
+              "source": "@site/docs/part4/chapter11.md",
+              "sourceDirName": "part4",
+              "slug": "/part4/chapter11",
+              "permalink": "/docs/part4/chapter11",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part4/chapter11.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 10: NVIDIA Isaac Platform Overview",
+                "permalink": "/docs/part4/chapter10"
+              },
+              "next": {
+                "title": "Chapter 12: Isaac Applications and Extensions",
+                "permalink": "/docs/part4/chapter12"
+              }
+            },
+            {
+              "id": "part4/chapter12",
+              "title": "Chapter 12: Isaac Applications and Extensions",
+              "description": "Chapter Overview",
+              "source": "@site/docs/part4/chapter12.md",
+              "sourceDirName": "part4",
+              "slug": "/part4/chapter12",
+              "permalink": "/docs/part4/chapter12",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part4/chapter12.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 11: Isaac AI and Deep Learning Integration",
+                "permalink": "/docs/part4/chapter11"
+              },
+              "next": {
+                "title": "Chapter 13: Vision Processing for Robotics",
+                "permalink": "/docs/part5/chapter13"
+              }
+            },
+            {
+              "id": "part5/chapter13",
+              "title": "Chapter 13: Vision Processing for Robotics",
+              "description": "Chapter Overview",
+              "source": "@site/docs/part5/chapter13.md",
+              "sourceDirName": "part5",
+              "slug": "/part5/chapter13",
+              "permalink": "/docs/part5/chapter13",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part5/chapter13.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 12: Isaac Applications and Extensions",
+                "permalink": "/docs/part4/chapter12"
+              },
+              "next": {
+                "title": "Chapter 14: Language Understanding for Robotics",
+                "permalink": "/docs/part5/chapter14"
+              }
+            },
+            {
+              "id": "part5/chapter14",
+              "title": "Chapter 14: Language Understanding for Robotics",
+              "description": "Chapter Overview",
+              "source": "@site/docs/part5/chapter14.md",
+              "sourceDirName": "part5",
+              "slug": "/part5/chapter14",
+              "permalink": "/docs/part5/chapter14",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part5/chapter14.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 13: Vision Processing for Robotics",
+                "permalink": "/docs/part5/chapter13"
+              },
+              "next": {
+                "title": "Chapter 15: Vision-Language-Action Integration",
+                "permalink": "/docs/part5/chapter15"
+              }
+            },
+            {
+              "id": "part5/chapter15",
+              "title": "Chapter 15: Vision-Language-Action Integration",
+              "description": "Chapter Overview",
+              "source": "@site/docs/part5/chapter15.md",
+              "sourceDirName": "part5",
+              "slug": "/part5/chapter15",
+              "permalink": "/docs/part5/chapter15",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part5/chapter15.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 14: Language Understanding for Robotics",
+                "permalink": "/docs/part5/chapter14"
+              },
+              "next": {
+                "title": "Chapter 16: Humanoid Robot Hardware",
+                "permalink": "/docs/part6/chapter16"
+              }
+            },
+            {
+              "id": "part6/chapter16",
+              "title": "Chapter 16: Humanoid Robot Hardware",
+              "description": "Chapter Overview",
+              "source": "@site/docs/part6/chapter16.md",
+              "sourceDirName": "part6",
+              "slug": "/part6/chapter16",
+              "permalink": "/docs/part6/chapter16",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part6/chapter16.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 15: Vision-Language-Action Integration",
+                "permalink": "/docs/part5/chapter15"
+              },
+              "next": {
+                "title": "Chapter 17: Humanoid Control Systems",
+                "permalink": "/docs/part6/chapter17"
+              }
+            },
+            {
+              "id": "part6/chapter17",
+              "title": "Chapter 17: Humanoid Control Systems",
+              "description": "Chapter Overview",
+              "source": "@site/docs/part6/chapter17.md",
+              "sourceDirName": "part6",
+              "slug": "/part6/chapter17",
+              "permalink": "/docs/part6/chapter17",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part6/chapter17.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 16: Humanoid Robot Hardware",
+                "permalink": "/docs/part6/chapter16"
+              },
+              "next": {
+                "title": "Chapter 18: Human-Robot Interaction",
+                "permalink": "/docs/part6/chapter18"
+              }
+            },
+            {
+              "id": "part6/chapter18",
+              "title": "Chapter 18: Human-Robot Interaction",
+              "description": "Chapter Overview",
+              "source": "@site/docs/part6/chapter18.md",
+              "sourceDirName": "part6",
+              "slug": "/part6/chapter18",
+              "permalink": "/docs/part6/chapter18",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part6/chapter18.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 17: Humanoid Control Systems",
+                "permalink": "/docs/part6/chapter17"
+              },
+              "next": {
+                "title": "Chapter 19: Integrated Physical AI Systems",
+                "permalink": "/docs/part7/chapter19"
+              }
+            },
+            {
+              "id": "part7/chapter19",
+              "title": "Chapter 19: Integrated Physical AI Systems",
+              "description": "Chapter Overview",
+              "source": "@site/docs/part7/chapter19.md",
+              "sourceDirName": "part7",
+              "slug": "/part7/chapter19",
+              "permalink": "/docs/part7/chapter19",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part7/chapter19.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 18: Human-Robot Interaction",
+                "permalink": "/docs/part6/chapter18"
+              },
+              "next": {
+                "title": "Appendix A: Mathematical Prerequisites",
+                "permalink": "/docs/appendices/appendix-a"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Part I: Foundations of Physical AI",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "part1/chapter1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "part1/chapter2"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "part1/chapter3"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Part II: Robotic Nervous System (ROS 2)",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "part2/chapter4"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "part2/chapter5"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "part2/chapter6"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Part III: Digital Twins & Simulation",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "part3/chapter7"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "part3/chapter8"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "part3/chapter9"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Part IV: AI Robot Brain (NVIDIA Isaac)",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "part4/chapter10"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "part4/chapter11"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "part4/chapter12"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Part V: Vision-Language-Action Systems",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "part5/chapter13"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "part5/chapter14"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "part5/chapter15"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Part VI: Humanoid Robotics",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "part6/chapter16"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "part6/chapter17"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "part6/chapter18"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Part VII: Capstone Project",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "part7/chapter19"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Appendices",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "appendices/appendix-a"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "appendices/appendix-b"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "appendices/appendix-c"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "appendices/appendix-d"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "appendices/appendix-e"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "appendices/appendix-f"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/blog/welcome",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-01-01-welcome.md",
+            "source": "@site/blog/2025-01-01-welcome.md",
+            "title": "Welcome to the Physical AI & Humanoid Robotics Blog",
+            "description": "Welcome to the official blog for the \"Physical AI & Humanoid Robotics: From Digital Intelligence to Embodied Agents\" textbook. This blog will serve as a supplement to the textbook, providing updates, insights, and additional resources for students and educators.",
+            "date": "2025-01-01T00:00:00.000Z",
+            "formattedDate": "January 1, 2025",
+            "tags": [
+              {
+                "label": "textbook",
+                "permalink": "/blog/tags/textbook"
+              },
+              {
+                "label": "robotics",
+                "permalink": "/blog/tags/robotics"
+              },
+              {
+                "label": "ai",
+                "permalink": "/blog/tags/ai"
+              },
+              {
+                "label": "education",
+                "permalink": "/blog/tags/education"
+              }
+            ],
+            "readingTime": 1.08,
+            "hasTruncateMarker": false,
+            "authors": [],
+            "frontMatter": {
+              "slug": "welcome",
+              "title": "Welcome to the Physical AI & Humanoid Robotics Blog",
+              "tags": [
+                "textbook",
+                "robotics",
+                "ai",
+                "education"
+              ]
+            },
+            "unlisted": false
+          },
+          "content": "Welcome to the official blog for the \"Physical AI & Humanoid Robotics: From Digital Intelligence to Embodied Agents\" textbook. This blog will serve as a supplement to the textbook, providing updates, insights, and additional resources for students and educators.\n\n## About This Textbook\n\nThis AI-native textbook represents a new approach to learning in the field of robotics and artificial intelligence. It combines rigorous technical content with interactive, retrieval-enhanced learning tools designed to help students understand the complex interplay between artificial intelligence and physical embodiment.\n\n## What to Expect\n\nIn this blog, we'll cover:\n\n- Updates on new developments in Physical AI and humanoid robotics\n- Supplementary materials that expand on textbook concepts\n- Practical tips for implementing the concepts covered in the textbook\n- Case studies of real-world applications\n- Discussions of emerging trends and technologies\n- Resources for educators using this textbook\n\n## Getting Started\n\nIf you're new to Physical AI, we recommend starting with the textbook's introduction and working through the foundational concepts before diving into more specialized topics. The blog posts will often reference specific chapters and concepts from the textbook, so having that context will be helpful.\n\nStay tuned for our next post where we'll explore recent advances in humanoid robotics and how they relate to the concepts covered in the textbook!"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "welcome"
+          ],
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 1,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/textbook": {
+          "label": "textbook",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/textbook",
+          "pages": [
+            {
+              "items": [
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/textbook",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/robotics": {
+          "label": "robotics",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/robotics",
+          "pages": [
+            {
+              "items": [
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/robotics",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/ai": {
+          "label": "ai",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/ai",
+          "pages": [
+            {
+              "items": [
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/ai",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/education": {
+          "label": "education",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/education",
+          "pages": [
+            {
+              "items": [
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/education",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

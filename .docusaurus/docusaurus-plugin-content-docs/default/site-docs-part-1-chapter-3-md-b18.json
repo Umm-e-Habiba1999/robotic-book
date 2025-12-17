@@ -1,0 +1,27 @@
+{
+  "id": "part1/chapter3",
+  "title": "Chapter 3: Sensing the Physical World",
+  "description": "Sensing the Physical World",
+  "source": "@site/docs/part1/chapter3.md",
+  "sourceDirName": "part1",
+  "slug": "/part1/chapter3",
+  "permalink": "/docs/part1/chapter3",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part1/chapter3.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 2: Physics and Mechanics for AI Systems",
+    "permalink": "/docs/part1/chapter2"
+  },
+  "next": {
+    "title": "Chapter 4: ROS 2 Architecture and Fundamentals",
+    "permalink": "/docs/part2/chapter4"
+  }
+}

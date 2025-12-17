@@ -1,0 +1,27 @@
+{
+  "id": "part5/chapter15",
+  "title": "Chapter 15: Vision-Language-Action Integration",
+  "description": "Chapter Overview",
+  "source": "@site/docs/part5/chapter15.md",
+  "sourceDirName": "part5",
+  "slug": "/part5/chapter15",
+  "permalink": "/docs/part5/chapter15",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part5/chapter15.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 14: Language Understanding for Robotics",
+    "permalink": "/docs/part5/chapter14"
+  },
+  "next": {
+    "title": "Chapter 16: Humanoid Robot Hardware",
+    "permalink": "/docs/part6/chapter16"
+  }
+}

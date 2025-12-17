@@ -1,0 +1,27 @@
+{
+  "id": "appendices/appendix-d",
+  "title": "Appendix D: Programming Resources",
+  "description": "D.1 ROS 2 Programming Patterns",
+  "source": "@site/docs/appendices/appendix-d.md",
+  "sourceDirName": "appendices",
+  "slug": "/appendices/appendix-d",
+  "permalink": "/docs/appendices/appendix-d",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/appendices/appendix-d.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Appendix C: Hardware Specifications",
+    "permalink": "/docs/appendices/appendix-c"
+  },
+  "next": {
+    "title": "Appendix E: Standards and Ethics",
+    "permalink": "/docs/appendices/appendix-e"
+  }
+}

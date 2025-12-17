@@ -1,0 +1,27 @@
+{
+  "id": "appendices/appendix-c",
+  "title": "Appendix C: Hardware Specifications",
+  "description": "C.1 Sensor Specifications and Datasheets",
+  "source": "@site/docs/appendices/appendix-c.md",
+  "sourceDirName": "appendices",
+  "slug": "/appendices/appendix-c",
+  "permalink": "/docs/appendices/appendix-c",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/appendices/appendix-c.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Appendix B: Software Installation and Setup",
+    "permalink": "/docs/appendices/appendix-b"
+  },
+  "next": {
+    "title": "Appendix D: Programming Resources",
+    "permalink": "/docs/appendices/appendix-d"
+  }
+}

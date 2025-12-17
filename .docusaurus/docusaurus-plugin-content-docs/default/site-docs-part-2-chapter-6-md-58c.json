@@ -1,0 +1,27 @@
+{
+  "id": "part2/chapter6",
+  "title": "Chapter 6: Manipulation and Control Frameworks",
+  "description": "Chapter Overview",
+  "source": "@site/docs/part2/chapter6.md",
+  "sourceDirName": "part2",
+  "slug": "/part2/chapter6",
+  "permalink": "/docs/part2/chapter6",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part2/chapter6.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 5: Perception and Navigation Stack",
+    "permalink": "/docs/part2/chapter5"
+  },
+  "next": {
+    "title": "Chapter 7: Physics Simulation Fundamentals",
+    "permalink": "/docs/part3/chapter7"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "part3/chapter9",
+  "title": "Chapter 9: Unity-Based Robotics Simulation",
+  "description": "Chapter Overview",
+  "source": "@site/docs/part3/chapter9.md",
+  "sourceDirName": "part3",
+  "slug": "/part3/chapter9",
+  "permalink": "/docs/part3/chapter9",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part3/chapter9.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 8: Gazebo Simulation Environment",
+    "permalink": "/docs/part3/chapter8"
+  },
+  "next": {
+    "title": "Chapter 10: NVIDIA Isaac Platform Overview",
+    "permalink": "/docs/part4/chapter10"
+  }
+}
