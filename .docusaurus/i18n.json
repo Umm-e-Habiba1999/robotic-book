@@ -5,21 +5,27 @@
     "ur"
   ],
   "path": "i18n",
-  "currentLocale": "en",
+  "currentLocale": "ur",
   "localeConfigs": {
     "en": {
       "label": "English",
       "direction": "ltr",
       "htmlLang": "en",
       "calendar": "gregory",
-      "path": "en"
+      "path": "en",
+      "translate": false,
+      "url": "https://your-docusaurus-site.example.com",
+      "baseUrl": "/"
     },
     "ur": {
       "label": "اردو",
       "direction": "rtl",
       "htmlLang": "ur",
       "calendar": "gregory",
-      "path": "ur"
+      "path": "ur",
+      "translate": true,
+      "url": "https://your-docusaurus-site.example.com",
+      "baseUrl": "/ur/"
     }
   }
 }

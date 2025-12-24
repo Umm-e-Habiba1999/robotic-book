@@ -1,0 +1,24 @@
+{"level":30,"time":1765098574408,"pid":2680,"hostname":"QURESHI","msg":"register transformer: Anthropic (endpoint: /v1/messages)"}
+{"level":30,"time":1765098574408,"pid":2680,"hostname":"QURESHI","msg":"register transformer: gemini (endpoint: /v1beta/models/:modelAndAction)"}
+{"level":30,"time":1765098574408,"pid":2680,"hostname":"QURESHI","msg":"register transformer: vertex-gemini (no endpoint)"}
+{"level":30,"time":1765098574408,"pid":2680,"hostname":"QURESHI","msg":"register transformer: vertex-claude (no endpoint)"}
+{"level":30,"time":1765098574408,"pid":2680,"hostname":"QURESHI","msg":"register transformer: deepseek (no endpoint)"}
+{"level":30,"time":1765098574408,"pid":2680,"hostname":"QURESHI","msg":"register transformer: tooluse (no endpoint)"}
+{"level":30,"time":1765098574408,"pid":2680,"hostname":"QURESHI","msg":"register transformer: openrouter (no endpoint)"}
+{"level":30,"time":1765098574408,"pid":2680,"hostname":"QURESHI","msg":"register transformer: OpenAI (endpoint: /v1/chat/completions)"}
+{"level":30,"time":1765098574408,"pid":2680,"hostname":"QURESHI","msg":"register transformer: maxtoken (no endpoint)"}
+{"level":30,"time":1765098574409,"pid":2680,"hostname":"QURESHI","msg":"register transformer: groq (no endpoint)"}
+{"level":30,"time":1765098574409,"pid":2680,"hostname":"QURESHI","msg":"register transformer: cleancache (no endpoint)"}
+{"level":30,"time":1765098574409,"pid":2680,"hostname":"QURESHI","msg":"register transformer: enhancetool (no endpoint)"}
+{"level":30,"time":1765098574409,"pid":2680,"hostname":"QURESHI","msg":"register transformer: reasoning (no endpoint)"}
+{"level":30,"time":1765098574409,"pid":2680,"hostname":"QURESHI","msg":"register transformer: sampling (no endpoint)"}
+{"level":30,"time":1765098574409,"pid":2680,"hostname":"QURESHI","msg":"register transformer: maxcompletiontokens (no endpoint)"}
+{"level":30,"time":1765098574409,"pid":2680,"hostname":"QURESHI","msg":"register transformer: cerebras (no endpoint)"}
+{"level":30,"time":1765098574409,"pid":2680,"hostname":"QURESHI","msg":"register transformer: streamoptions (no endpoint)"}
+{"level":30,"time":1765098574409,"pid":2680,"hostname":"QURESHI","msg":"register transformer: customparams (no endpoint)"}
+{"level":30,"time":1765098574409,"pid":2680,"hostname":"QURESHI","msg":"register transformer: vercel (no endpoint)"}
+{"level":30,"time":1765098574409,"pid":2680,"hostname":"QURESHI","msg":"register transformer: openai-responses (endpoint: /v1/responses)"}
+{"level":30,"time":1765098574409,"pid":2680,"hostname":"QURESHI","msg":"register transformer: forcereasoning (no endpoint)"}
+{"level":30,"time":1765098574420,"pid":2680,"hostname":"QURESHI","msg":"gemini provider registered"}
+{"level":30,"time":1765098574570,"pid":2680,"hostname":"QURESHI","msg":"Server listening at http://127.0.0.1:3456"}
+{"level":30,"time":1765098574571,"pid":2680,"hostname":"QURESHI","msg":"🚀 LLMs API server listening on http://127.0.0.1:3456"}

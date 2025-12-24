@@ -1,0 +1,27 @@
+{
+  "id": "appendices/appendix-a",
+  "title": "ضمیمہ A: ریاضیاتی تقاضے",
+  "description": "A.1 Robotics کے لیے Linear Algebra",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/appendices/appendix-a.md",
+  "sourceDirName": "appendices",
+  "slug": "/appendices/appendix-a",
+  "permalink": "/ur/docs/appendices/appendix-a",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/appendices/appendix-a.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "باب 19: Integrated Physical AI Systems",
+    "permalink": "/ur/docs/part7/chapter19"
+  },
+  "next": {
+    "title": "ضمیمہ B: Software Installation اور Setup",
+    "permalink": "/ur/docs/appendices/appendix-b"
+  }
+}

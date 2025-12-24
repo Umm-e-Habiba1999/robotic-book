@@ -1,0 +1,27 @@
+{
+  "id": "part5/chapter13",
+  "title": "باب 13: Robotics کے لیے Vision Processing",
+  "description": "باب کا جائزہ",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/part5/chapter13.md",
+  "sourceDirName": "part5",
+  "slug": "/part5/chapter13",
+  "permalink": "/ur/docs/part5/chapter13",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part5/chapter13.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "باب 12: Isaac Applications اور Extensions",
+    "permalink": "/ur/docs/part4/chapter12"
+  },
+  "next": {
+    "title": "باب 14: Robotics کے لیے Language Understanding",
+    "permalink": "/ur/docs/part5/chapter14"
+  }
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Physical AI &amp; Humanoid Robotics Blog</title>
+        <link>https://your-docusaurus-site.example.com/ur/blog</link>
+        <description>Physical AI &amp; Humanoid Robotics Blog</description>
+        <lastBuildDate>Wed, 01 Jan 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>ur</language>
+        <item>
+            <title><![CDATA[Welcome to the Physical AI & Humanoid Robotics Blog]]></title>
+            <link>https://your-docusaurus-site.example.com/ur/blog/welcome</link>
+            <guid>https://your-docusaurus-site.example.com/ur/blog/welcome</guid>
+            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to the official blog for the "Physical AI & Humanoid Robotics: From Digital Intelligence to Embodied Agents" textbook. This blog will serve as a supplement to the textbook, providing updates, insights, and additional resources for students and educators.]]></description>
+            <content:encoded><![CDATA[<p>Welcome to the official blog for the "Physical AI &amp; Humanoid Robotics: From Digital Intelligence to Embodied Agents" textbook. This blog will serve as a supplement to the textbook, providing updates, insights, and additional resources for students and educators.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="about-this-textbook">About This Textbook<a href="https://your-docusaurus-site.example.com/ur/blog/welcome#about-this-textbook" class="hash-link" aria-label="About This Textbook کا براہ راست لنک" title="About This Textbook کا براہ راست لنک" translate="no">​</a></h2>
+<p>This AI-native textbook represents a new approach to learning in the field of robotics and artificial intelligence. It combines rigorous technical content with interactive, retrieval-enhanced learning tools designed to help students understand the complex interplay between artificial intelligence and physical embodiment.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-to-expect">What to Expect<a href="https://your-docusaurus-site.example.com/ur/blog/welcome#what-to-expect" class="hash-link" aria-label="What to Expect کا براہ راست لنک" title="What to Expect کا براہ راست لنک" translate="no">​</a></h2>
+<p>In this blog, we'll cover:</p>
+<ul>
+<li class="">Updates on new developments in Physical AI and humanoid robotics</li>
+<li class="">Supplementary materials that expand on textbook concepts</li>
+<li class="">Practical tips for implementing the concepts covered in the textbook</li>
+<li class="">Case studies of real-world applications</li>
+<li class="">Discussions of emerging trends and technologies</li>
+<li class="">Resources for educators using this textbook</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="getting-started">Getting Started<a href="https://your-docusaurus-site.example.com/ur/blog/welcome#getting-started" class="hash-link" aria-label="Getting Started کا براہ راست لنک" title="Getting Started کا براہ راست لنک" translate="no">​</a></h2>
+<p>If you're new to Physical AI, we recommend starting with the textbook's introduction and working through the foundational concepts before diving into more specialized topics. The blog posts will often reference specific chapters and concepts from the textbook, so having that context will be helpful.</p>
+<p>Stay tuned for our next post where we'll explore recent advances in humanoid robotics and how they relate to the concepts covered in the textbook!</p>]]></content:encoded>
+            <category>textbook</category>
+            <category>robotics</category>
+            <category>ai</category>
+            <category>education</category>
+        </item>
+    </channel>
+</rss>

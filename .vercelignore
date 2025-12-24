@@ -1,0 +1,8 @@
+node_modules
+.docusaurus
+.cache
+.git
+.env
+chatbot/backend
+*.log
+.DS_Store

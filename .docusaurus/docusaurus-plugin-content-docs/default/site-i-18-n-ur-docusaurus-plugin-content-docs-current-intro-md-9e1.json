@@ -1,0 +1,23 @@
+{
+  "id": "intro",
+  "title": "فزیکل AI اور ہیومنائڈ روبوٹکس: ڈیجیٹل انٹیلیجنس سے جسمانی ایجنٹس تک",
+  "description": "AI تعلیم کے مستقبل میں خوش آمدید",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/ur/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "باب 1: فزیکل AI کا تعارف",
+    "permalink": "/ur/docs/part1/chapter1"
+  }
+}

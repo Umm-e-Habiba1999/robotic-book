@@ -1,0 +1,27 @@
+{
+  "id": "appendices/appendix-c",
+  "title": "ضمیمہ C: Hardware Specifications",
+  "description": "C.1 Sensor Specifications اور Datasheets",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/appendices/appendix-c.md",
+  "sourceDirName": "appendices",
+  "slug": "/appendices/appendix-c",
+  "permalink": "/ur/docs/appendices/appendix-c",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/appendices/appendix-c.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ضمیمہ B: Software Installation اور Setup",
+    "permalink": "/ur/docs/appendices/appendix-b"
+  },
+  "next": {
+    "title": "ضمیمہ D: Programming Resources",
+    "permalink": "/ur/docs/appendices/appendix-d"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "appendices/appendix-e",
+  "title": "ضمیمہ E: Standards اور Ethics",
+  "description": "E.1 Robotics Safety Standards",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/appendices/appendix-e.md",
+  "sourceDirName": "appendices",
+  "slug": "/appendices/appendix-e",
+  "permalink": "/ur/docs/appendices/appendix-e",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/appendices/appendix-e.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ضمیمہ D: Programming Resources",
+    "permalink": "/ur/docs/appendices/appendix-d"
+  },
+  "next": {
+    "title": "ضمیمہ F: Cloud بمقابلہ On-Premise Lab Setup",
+    "permalink": "/ur/docs/appendices/appendix-f"
+  }
+}

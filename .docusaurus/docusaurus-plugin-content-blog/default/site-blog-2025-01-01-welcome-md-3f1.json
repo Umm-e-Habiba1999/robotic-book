@@ -1,30 +1,33 @@
 {
-  "permalink": "/blog/welcome",
+  "permalink": "/ur/blog/welcome",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-01-01-welcome.md",
   "source": "@site/blog/2025-01-01-welcome.md",
   "title": "Welcome to the Physical AI & Humanoid Robotics Blog",
   "description": "Welcome to the official blog for the \"Physical AI & Humanoid Robotics: From Digital Intelligence to Embodied Agents\" textbook. This blog will serve as a supplement to the textbook, providing updates, insights, and additional resources for students and educators.",
   "date": "2025-01-01T00:00:00.000Z",
-  "formattedDate": "January 1, 2025",
   "tags": [
     {
+      "inline": true,
       "label": "textbook",
-      "permalink": "/blog/tags/textbook"
+      "permalink": "/ur/blog/tags/textbook"
     },
     {
+      "inline": true,
       "label": "robotics",
-      "permalink": "/blog/tags/robotics"
+      "permalink": "/ur/blog/tags/robotics"
     },
     {
+      "inline": true,
       "label": "ai",
-      "permalink": "/blog/tags/ai"
+      "permalink": "/ur/blog/tags/ai"
     },
     {
+      "inline": true,
       "label": "education",
-      "permalink": "/blog/tags/education"
+      "permalink": "/ur/blog/tags/education"
     }
   ],
-  "readingTime": 1.08,
+  "readingTime": 1.05,
   "hasTruncateMarker": false,
   "authors": [],
   "frontMatter": {

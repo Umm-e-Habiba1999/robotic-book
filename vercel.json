@@ -1,3 +1,6 @@
 {
-  "outputDirectory": "build"
+  "buildCommand": "node node_modules/@docusaurus/core/bin/docusaurus.mjs build",
+  "outputDirectory": "build",
+  "installCommand": "npm install",
+  "framework": null
 }

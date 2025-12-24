@@ -8,20 +8,35 @@ export default {
   "tagline": "From Digital Intelligence to Embodied Agents",
   "favicon": "img/favicon.ico",
   "url": "https://your-docusaurus-site.example.com",
-  "baseUrl": "/",
+  "baseUrl": "/ur/",
   "organizationName": "your-github-username",
   "projectName": "physical-ai-textbook",
   "onBrokenLinks": "throw",
-  "onBrokenMarkdownLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
       "en",
       "ur"
     ],
-    "path": "i18n",
-    "localeConfigs": {}
+    "localeConfigs": {
+      "en": {
+        "label": "English",
+        "direction": "ltr"
+      },
+      "ur": {
+        "label": "اردو",
+        "direction": "rtl",
+        "htmlLang": "ur"
+      }
+    },
+    "path": "i18n"
   },
+  "scripts": [
+    {
+      "src": "/chatbot/widget.js",
+      "async": true
+    }
+  ],
   "presets": [
     [
       "classic",
@@ -43,7 +58,7 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "Physical AI & Humanoid Robotics",
+      "title": "فزیکل AI اور ہیومنوائیڈ روبوٹکس",
       "logo": {
         "alt": "Physical AI & Humanoid Robotics Logo",
         "src": "img/textbook-logo.png"
@@ -53,15 +68,21 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Textbook"
+          "label": "کتاب"
         },
         {
           "to": "/blog",
-          "label": "Blog",
+          "label": "بلاگ",
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "type": "localeDropdown",
+          "position": "right",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
+        },
+        {
+          "href": "https://github.com/Umm-e-Habiba1999/robotic-book",
           "label": "GitHub",
           "position": "right"
         }
@@ -72,16 +93,16 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "دستاویزات",
           "items": [
             {
-              "label": "Textbook",
+              "label": "کتاب",
               "to": "/docs/intro"
             }
           ]
         },
         {
-          "title": "Community",
+          "title": "کمیونٹی",
           "items": [
             {
               "label": "Stack Overflow",
@@ -98,20 +119,20 @@ export default {
           ]
         },
         {
-          "title": "More",
+          "title": "مزید",
           "items": [
             {
-              "label": "Blog",
+              "label": "بلاگ",
               "to": "/blog"
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/Umm-e-Habiba1999/robotic-book"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2025 Physical AI & Humanoid Robotics Textbook. Built with Docusaurus."
+      "copyright": "کاپی رائٹ © 2025 فزیکل AI اور ہیومنوائیڈ روبوٹکس کتاب۔ Docusaurus کے ساتھ بنایا گیا۔"
     },
     "prism": {
       "theme": {
@@ -329,6 +350,11 @@ export default {
         "autoCollapseCategories": false
       }
     },
+    "blog": {
+      "sidebar": {
+        "groupByYear": true
+      }
+    },
     "metadata": [],
     "tableOfContents": {
       "minHeadingLevel": 2,
@@ -336,6 +362,27 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
+  "future": {
+    "v4": {
+      "removeLegacyPostBuildHeadAttribute": false,
+      "useCssCascadeLayers": false
+    },
+    "experimental_faster": {
+      "swcJsLoader": false,
+      "swcJsMinimizer": false,
+      "swcHtmlMinimizer": false,
+      "lightningCssMinimizer": false,
+      "mdxCrossCompilerCache": false,
+      "rspackBundler": false,
+      "rspackPersistentCache": false,
+      "ssgWorkerThreads": false
+    },
+    "experimental_storage": {
+      "type": "localStorage",
+      "namespace": false
+    },
+    "experimental_router": "browser"
+  },
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
@@ -344,7 +391,6 @@ export default {
   "customFields": {},
   "plugins": [],
   "themes": [],
-  "scripts": [],
   "headTags": [],
   "stylesheets": [],
   "clientModules": [],
@@ -353,10 +399,18 @@ export default {
   "markdown": {
     "format": "mdx",
     "mermaid": false,
+    "emoji": true,
     "mdx1Compat": {
       "comments": true,
       "admonitions": true,
       "headingIds": true
+    },
+    "anchors": {
+      "maintainCase": false
+    },
+    "hooks": {
+      "onBrokenMarkdownLinks": "warn",
+      "onBrokenMarkdownImages": "throw"
     }
   }
 };

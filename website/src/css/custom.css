@@ -1,0 +1,61 @@
+/**
+ * Global CSS overrides for your Docusaurus site.
+ * Matches your custom sky-blue + dark-blue theme.
+ */
+
+/* Light Mode Theme */
+:root {
+  --ifm-color-primary: #007bff;            /* Main blue */
+  --ifm-color-primary-dark: #0065d1;
+  --ifm-color-primary-darker: #005bbf;
+  --ifm-color-primary-darkest: #004999;
+  
+  --ifm-color-primary-light: #684dff;      /* Light sky blue */
+  --ifm-color-primary-lighter: #80c3ff;
+  --ifm-color-primary-lightest: #b3beff;   /* Lightest sky */
+
+  --ifm-code-font-size: 95%;
+  
+  --docusaurus-highlighted-code-line-bg: rgba(0, 123, 255, 0.12);
+
+  /* Background tint (optional) */
+  --ifm-background-color: #f7fbff;         /* Super light sky */
+
+  /* Navbar color */
+  --ifm-navbar-background-color: #e7f3ff;  /* Very soft blue navbar */
+}
+
+/* Dark Mode Theme */
+[data-theme='dark'] {
+  --ifm-color-primary: #4da8ff;           /* Bright sky */
+  --ifm-color-primary-dark: #1b7fd6;
+  --ifm-color-primary-darker: #166fb8;
+  --ifm-color-primary-darkest: #0d4b80;
+
+  --ifm-color-primary-light: #809eff;
+  --ifm-color-primary-lighter: #a6d6ff;
+  --ifm-color-primary-lightest: #cce8ff;
+
+  --docusaurus-highlighted-code-line-bg: rgba(77, 168, 255, 0.22);
+
+  /* Dark mode background */
+  --ifm-background-color: #0f172a;         /* Modern deep navy */
+  --ifm-navbar-background-color: #1e293b;  /* Sleek dark navy */
+}
+
+/* Optional: Make links smooth & elegant */
+a {
+  transition: color 0.2s ease;
+}
+
+/* Optional: Buttons styling override */
+.button.button--primary {
+  border-radius: 10px;
+  padding: 0.6rem 1.4rem;
+  font-weight: bold;
+}
+
+/* Hover smooth effect */
+.button.button--primary:hover {
+  transform: scale(1.03);
+}

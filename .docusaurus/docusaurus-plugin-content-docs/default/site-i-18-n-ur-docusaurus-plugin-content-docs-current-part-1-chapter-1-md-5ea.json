@@ -1,0 +1,27 @@
+{
+  "id": "part1/chapter1",
+  "title": "باب 1: فزیکل AI کا تعارف",
+  "description": "Physical AI Concept",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/part1/chapter1.md",
+  "sourceDirName": "part1",
+  "slug": "/part1/chapter1",
+  "permalink": "/ur/docs/part1/chapter1",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part1/chapter1.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "فزیکل AI اور ہیومنائڈ روبوٹکس: ڈیجیٹل انٹیلیجنس سے جسمانی ایجنٹس تک",
+    "permalink": "/ur/docs/intro"
+  },
+  "next": {
+    "title": "باب 2: AI سسٹمز کے لیے فزکس اور میکانکس",
+    "permalink": "/ur/docs/part1/chapter2"
+  }
+}

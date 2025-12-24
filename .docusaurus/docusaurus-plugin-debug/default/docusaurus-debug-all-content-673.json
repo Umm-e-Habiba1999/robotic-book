@@ -15,9 +15,9 @@
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\Users\\DANISH LAPTOP\\physical-ai-textbook\\sidebars.js",
-          "contentPath": "C:\\Users\\DANISH LAPTOP\\physical-ai-textbook\\docs",
-          "contentPathLocalized": "C:\\Users\\DANISH LAPTOP\\physical-ai-textbook\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "E:\\hackhaton1\\physical-ai-textbook\\sidebars.js",
+          "contentPath": "E:\\hackhaton1\\physical-ai-textbook\\docs",
+          "contentPathLocalized": "E:\\hackhaton1\\physical-ai-textbook\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "id": "appendices/appendix-a",

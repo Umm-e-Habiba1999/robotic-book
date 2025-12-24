@@ -1,0 +1,27 @@
+{
+  "id": "part2/chapter6",
+  "title": "باب 6: Manipulation اور Control Frameworks",
+  "description": "باب کا جائزہ",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/part2/chapter6.md",
+  "sourceDirName": "part2",
+  "slug": "/part2/chapter6",
+  "permalink": "/ur/docs/part2/chapter6",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/part2/chapter6.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "باب 5: Perception اور Navigation Stack",
+    "permalink": "/ur/docs/part2/chapter5"
+  },
+  "next": {
+    "title": "باب 7: Physics Simulation کی بنیادیں",
+    "permalink": "/ur/docs/part3/chapter7"
+  }
+}
