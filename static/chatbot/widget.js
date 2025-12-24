@@ -267,7 +267,7 @@
         }
 
         // Send to backend
-        fetch('http://localhost:8000/api/chat', {
+        fetch('https://efficient-youth-production-4472.up.railway.app/api/chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
