@@ -1,0 +1,42 @@
+{
+  "version.label": {
+    "message": "اگلا",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Part I: Foundations of Physical AI": {
+    "message": "حصہ اول: فزیکل AI کی بنیادیں",
+    "description": "The label for category Part I: Foundations of Physical AI in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Part II: Robotic Nervous System": {
+    "message": "حصہ دوم: روبوٹک نظام اعصاب",
+    "description": "The label for category Part II in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Part III: Digital Twins & Simulation": {
+    "message": "حصہ سوم: ڈیجیٹل ٹونز اور سمیولیشن",
+    "description": "The label for category Part III: Digital Twins & Simulation in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Part II: Robotic Nervous System (ROS 2)": {
+    "message": "حصہ دوم: روبوٹک نظام اعصاب (ROS 2)",
+    "description": "The label for category Part II: Robotic Nervous System (ROS 2) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Part IV: AI Robot Brain (NVIDIA Isaac)": {
+    "message": "حصہ چہارم: AI روبوٹ دماغ (NVIDIA Isaac)",
+    "description": "The label for category Part IV: AI Robot Brain (NVIDIA Isaac) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Part V: Vision-Language-Action Systems": {
+    "message": "حصہ پنجم: وژن-لینگویج-ایکشن سسٹمز",
+    "description": "The label for category Part V: Vision-Language-Action Systems in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Part VI: Humanoid Robotics": {
+    "message": "حصہ ششم: ہیومنوائیڈ روبوٹکس",
+    "description": "The label for category Part VI: Humanoid Robotics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Part VII: Capstone Project": {
+    "message": "حصہ ہفتم: کیپ اسٹون پروجیکٹ",
+    "description": "The label for category Part VII: Capstone Project in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Appendices": {
+    "message": "ضمیمے",
+    "description": "The label for category Appendices in sidebar tutorialSidebar"
+  }
+}

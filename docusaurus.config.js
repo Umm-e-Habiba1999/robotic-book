@@ -24,8 +24,26 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ur'], // Adding Urdu for translation support
+    locales: ['en', 'ur'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+      },
+      ur: {
+        label: 'اردو',
+        direction: 'rtl',
+        htmlLang: 'ur',
+      },
+    },
   },
+
+  scripts: [
+  {
+    src: '/chatbot/widget.js',
+    async: true,
+  },
+],
 
   presets: [
     [
@@ -73,7 +91,11 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            type: 'localeDropdown',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/Umm-e-Habiba1999/robotic-book',
             label: 'GitHub',
             position: 'right',
           },
@@ -117,7 +139,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Umm-e-Habiba1999/robotic-book',
               },
             ],
           },

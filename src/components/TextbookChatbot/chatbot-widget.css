@@ -1,0 +1,158 @@
+/* Physical AI Textbook Chatbot Widget Styles */
+.textbook-chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10000;
+    width: 400px;
+    height: 600px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+}
+
+.textbook-chatbot-header {
+    background: linear-gradient(135deg, #1e40af, #2563eb);
+    color: white;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: move;
+}
+
+.textbook-chatbot-title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.textbook-chatbot-subtitle {
+    display: block;
+    font-size: 12px;
+    opacity: 0.8;
+    margin-top: 2px;
+}
+
+.textbook-chatbot-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textbook-chatbot-messages {
+    flex: 1;
+    padding: 16px;
+    overflow-y: auto;
+    background: #f9fafb;
+}
+
+.textbook-chatbot-message {
+    margin-bottom: 16px;
+    display: flex;
+}
+
+.textbook-chatbot-message.user {
+    justify-content: flex-end;
+}
+
+.textbook-chatbot-message.bot {
+    justify-content: flex-start;
+}
+
+.textbook-chatbot-message-content {
+    padding: 12px;
+    border-radius: 8px;
+    max-width: 80%;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.textbook-chatbot-message.user .textbook-chatbot-message-content {
+    background: #2563eb;
+    color: white;
+}
+
+.textbook-chatbot-message.bot .textbook-chatbot-message-content {
+    background: #e5e7eb;
+    color: #374151;
+}
+
+.textbook-chatbot-input-area {
+    padding: 12px;
+    border-top: 1px solid #e5e7eb;
+    background: white;
+}
+
+.textbook-chatbot-selected-text-indicator {
+    background: #dbeafe;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+.textbook-chatbot-selected-text-preview {
+    font-style: italic;
+}
+
+.textbook-chatbot-input-container {
+    display: flex;
+    gap: 8px;
+}
+
+.textbook-chatbot-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+.textbook-chatbot-input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+.textbook-chatbot-send-button {
+    background: linear-gradient(135deg, #1e40af, #2563eb);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.textbook-chatbot-send-button:hover {
+    background: linear-gradient(135deg, #1e3a8a, #1d4ed8);
+}
+
+.textbook-chatbot-send-button:disabled {
+    background: #9ca3af;
+    cursor: not-allowed;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .textbook-chatbot-container {
+        width: calc(100% - 40px);
+        height: 50vh;
+        bottom: 10px;
+        right: 10px;
+    }
+}

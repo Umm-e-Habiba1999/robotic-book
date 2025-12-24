@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import Translate, {translate} from '@docusaurus/Translate';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -20,7 +21,11 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Start Reading - 7 min ⏱️
+            <Translate
+              id="homepage.startReading"
+              description="The button text for starting to read the textbook">
+              Start Reading - 7 min ⏱️
+            </Translate>
           </Link>
         </div>
       </div>
@@ -30,10 +35,16 @@ function HomepageHeader() {
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
+  const pageDescription = translate({
+    id: 'homepage.description',
+    message: 'Physical AI & Humanoid Robotics: From Digital Intelligence to Embodied Agents',
+    description: 'The homepage meta description',
+  });
+
   return (
     <Layout
       title={`Welcome to ${siteConfig.title}`}
-      description="Physical AI & Humanoid Robotics: From Digital Intelligence to Embodied Agents">
+      description={pageDescription}>
       <HomepageHeader />
       <main>
         {/* Optional: Add additional sections here */}
@@ -42,20 +53,56 @@ export default function Home() {
             <div className="row">
               <div className="col col--4">
                 <div className="padding-horiz--md">
-                  <h2>Physical AI</h2>
-                  <p>Learn about embodied systems that navigate, understand, and manipulate the physical world.</p>
+                  <h2>
+                    <Translate
+                      id="homepage.feature1.title"
+                      description="The title for the Physical AI feature">
+                      Physical AI
+                    </Translate>
+                  </h2>
+                  <p>
+                    <Translate
+                      id="homepage.feature1.description"
+                      description="The description for the Physical AI feature">
+                      Learn about embodied systems that navigate, understand, and manipulate the physical world.
+                    </Translate>
+                  </p>
                 </div>
               </div>
               <div className="col col--4">
                 <div className="padding-horiz--md">
-                  <h2>Humanoid Robotics</h2>
-                  <p>Discover the cutting-edge technology behind advanced humanoid robots and their applications.</p>
+                  <h2>
+                    <Translate
+                      id="homepage.feature2.title"
+                      description="The title for the Humanoid Robotics feature">
+                      Humanoid Robotics
+                    </Translate>
+                  </h2>
+                  <p>
+                    <Translate
+                      id="homepage.feature2.description"
+                      description="The description for the Humanoid Robotics feature">
+                      Discover the cutting-edge technology behind advanced humanoid robots and their applications.
+                    </Translate>
+                  </p>
                 </div>
               </div>
               <div className="col col--4">
                 <div className="padding-horiz--md">
-                  <h2>AI Integration</h2>
-                  <p>Explore how artificial intelligence drives autonomous behavior in physical systems.</p>
+                  <h2>
+                    <Translate
+                      id="homepage.feature3.title"
+                      description="The title for the AI Integration feature">
+                      AI Integration
+                    </Translate>
+                  </h2>
+                  <p>
+                    <Translate
+                      id="homepage.feature3.description"
+                      description="The description for the AI Integration feature">
+                      Explore how artificial intelligence drives autonomous behavior in physical systems.
+                    </Translate>
+                  </p>
                 </div>
               </div>
             </div>

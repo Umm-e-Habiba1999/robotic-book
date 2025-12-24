@@ -50,9 +50,9 @@ This textbook includes embedded AI capabilities for enhanced learning:
 ## 🚀 Getting Started
 
 <div style={{display: 'flex', justifyContent: 'center', marginTop: '2rem', padding: '1rem', backgroundColor: '#f0f8ff', borderRadius: '8px', border: '2px solid #007acc'}}>
-  <a href="./part1/chapter1.md" style={{textDecoration: 'none', color: '#007acc', fontSize: '1.2rem', fontWeight: 'bold', padding: '1rem 2rem', backgroundColor: '#007acc', color: 'white', borderRadius: '6px', border: 'none'}}>
+  <a href="/docs/part1/chapter1" style={{textDecoration: 'none', color: '#007acc', fontSize: '1.2rem', fontWeight: 'bold', padding: '1rem 2rem', backgroundColor: '#007acc', color: 'white', borderRadius: '6px', border: 'none'}}>
     Begin with Part I: Foundations of Physical AI →
   </a>
 </div>
 
-Begin with [Part I: Foundations of Physical AI](./part1/chapter1.md) to understand the core concepts of embodied intelligence before moving on to more specialized topics.
+Begin with [Part I: Foundations of Physical AI](/docs/part1/chapter1) to understand the core concepts of embodied intelligence before moving on to more specialized topics.
