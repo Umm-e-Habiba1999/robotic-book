@@ -1,6 +1,9 @@
 {
-  "buildCommand": "node node_modules/@docusaurus/core/bin/docusaurus.mjs build",
+  "buildCommand": "npm run build",
   "outputDirectory": "build",
   "installCommand": "npm install",
-  "framework": null
+  "framework": "docusaurus",
+  "cacheControl": {
+    "maxAge": 0
+  }
 }
