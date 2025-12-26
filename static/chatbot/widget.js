@@ -38,6 +38,9 @@
     let currentLang = getCurrentLanguage();
     const t = translations[currentLang];
 
+    // Initialize selected text variable
+    window.selectedBookText = null;
+
     // Create chat icon
     const chatIcon = document.createElement('div');
     chatIcon.id = 'chat-icon';
@@ -261,13 +264,18 @@
             language: currentLang  // Send current language (en or ur)
         };
 
-        // Add selected text if available
+        // Add selected text if available and clear immediately
         if (window.selectedBookText && window.selectedBookText.trim().length > 0) {
             requestData.selected_text = window.selectedBookText;
+            window.selectedBookText = null; // Clear immediately after using
         }
 
-        // Send to backend
-        fetch('https://efficient-youth-production-4472.up.railway.app/api/chat', {
+        // Send to backend - use localhost for development
+        const backendUrl = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+            ? 'http://localhost:8000/api/chat'
+            : 'https://efficient-youth-production-4472.up.railway.app/api/chat';
+
+        fetch(backendUrl, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -301,9 +309,6 @@
             botMsg.innerHTML = responseText;
 
             messagesContainer.appendChild(botMsg);
-
-            // Clear selected text after sending
-            window.selectedBookText = null;
 
             // Scroll to bottom
             messagesContainer.scrollTop = messagesContainer.scrollHeight;

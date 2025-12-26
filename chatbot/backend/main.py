@@ -112,11 +112,11 @@ async def chat(request: ChatRequest):
                 selected_text_embedding = app.embedding_model.encode(request.selected_text, convert_to_numpy=True).tolist()
 
                 # Search for related content in the vector database
-                search_results = app.qdrant_client.search(
+                search_results = app.qdrant_client.query_points(
                     collection_name=app.collection_name,
-                    query_vector=selected_text_embedding,
+                    query=selected_text_embedding,
                     limit=3  # Limit to 3 additional results
-                )
+                ).points
 
                 if search_results:
                     for i, result in enumerate(search_results, 1):
@@ -131,11 +131,11 @@ async def chat(request: ChatRequest):
             query_embedding = app.embedding_model.encode(request.message, convert_to_numpy=True).tolist()
 
             # Search vector database for relevant content (reduced limit for faster search)
-            search_results = app.qdrant_client.search(
+            search_results = app.qdrant_client.query_points(
                 collection_name=app.collection_name,
-                query_vector=query_embedding,
+                query=query_embedding,
                 limit=3  # Reduced from 5 to 3 for faster search
-            )
+            ).points
 
             if not search_results:
                 # Enhanced fallback context when no relevant information is found
@@ -194,19 +194,25 @@ Please provide a clear answer based on the context above."""
         print(f"[DEBUG] Using language mode: {request.language}")
         print(f"[DEBUG] System prompt starts with: {system_prompt[:100]}...")
 
-        # Call OpenRouter for chat completion (using faster Qwen 7B model)
-        response = app.openrouter_client.chat.completions.create(
-            model=os.getenv("CHAT_MODEL", "qwen/qwen-2.5-7b-instruct"),  # Faster 7B model
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt}
-            ],
-            temperature=0.7,
-            max_tokens=400  # Balanced for good answers and speed
-        )
-
-        # Extract the answer from the response
-        answer = response.choices[0].message.content
+        # Try OpenRouter, fallback to context-only response if API fails
+        try:
+            response = app.openrouter_client.chat.completions.create(
+                model=os.getenv("CHAT_MODEL", "qwen/qwen-2.5-7b-instruct"),
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_prompt}
+                ],
+                temperature=0.7,
+                max_tokens=400
+            )
+            answer = response.choices[0].message.content
+        except Exception as api_error:
+            print(f"OpenRouter API error: {api_error}")
+            # Fallback: Return context directly with better formatting
+            if request.language == "ur":
+                answer = f"📚 کتاب سے متعلقہ معلومات:\n\n{context[:1000]}"
+            else:
+                answer = f"📚 Relevant information from the textbook:\n\n{context[:1000]}"
 
         # Ensure the answer is not empty or None
         if not answer or answer.strip() == "":
